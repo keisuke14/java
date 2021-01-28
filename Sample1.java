@@ -46,6 +46,15 @@ public class Sample1{
     default:
       System.out.println("凶");
   }
+  
+ /*for文の基本形*/
+    for (int i = 0; i < 10; i++) {
+      System.out.println("こんにちは");
+    }
+
+    for (int j = 0; j < 3; j++) {
+    System.out.println("現在" + (j+ 1) + "周目→");
+    }
 
   }
 }

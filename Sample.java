@@ -61,6 +61,6 @@
       /*キーボードから1つの整数の入力を受け付ける*/
       int age = new java.util.Scanner(System.in).nextInt();
       System.out.println("ようこそ、" + age + "歳の" + name + "さん");
-
+    
     }
   }
