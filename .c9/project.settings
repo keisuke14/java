@@ -1,5 +1,6 @@
 {
     "ace": {
+        "@guessTabSize": true,
         "@tabSize": 2
     },
     "build": {
