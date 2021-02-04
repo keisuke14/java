@@ -59,6 +59,20 @@
         /*配列baseの中にseq[k]があるだけ*/
         System.out.println(base[seq[k]] + "");
       }
+    /*2次元配列の利用*/
+    /*2行3列の配列　[2]が行[3]が列*/
+     int[][] counts = new int[2][3];
+     counts[0][0] = 40;
+     counts[0][1] = 50;
+     counts[0][2] = 60;
+     counts[1][0] = 80;
+     counts[1][1] = 60;
+     counts[1][2] = 70;
+     System.out.println(counts[1][1]);
 
+     /*親要素と子要素の要素数を表示*/
+     int[][] conts = {{40,50,60},{80,60,70}};
+     System.out.println(conts.length);
+     System.out.println(conts[0].length);
     }
   }
