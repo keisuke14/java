@@ -40,7 +40,14 @@
         "@runner": "Java",
         "configs": {
             "@inited": "true",
-            "json()": {}
+            "json()": {
+                "java calcapp.main.Calc": {
+                    "command": "Sample5.java",
+                    "name": "java calcapp.main.Calc",
+                    "runner": "Java",
+                    "toolbar": true
+                }
+            }
         }
     },
     "welcome": {

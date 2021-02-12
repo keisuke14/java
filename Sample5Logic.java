@@ -1,4 +1,4 @@
-package calcapp.logics;
+// package calcapp.logics;
 
 public class Sample5Logic {
   public static int tasu(int a, int b){
