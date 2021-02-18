@@ -12,11 +12,11 @@ public class Hero {
   public void sit(int sec) {
     /*座る秒数だけでHPを増やす*/
     this.hp += sec;
-    System.out.println(this.name + "は、"　+ sec + "秒座った");
+    System.out.println(this.name + "は、" + sec + "秒座った");
     System.out.println("HPが" + sec + "ポイント回復した");
   }
   /*転ぶ(slipメソッド)*/
-  public void slip( {
+  public void slip() {
    this.hp -= 5;
    System.out.println(this.name + "は、転んだ");
    System.out.println("5のダメージ");

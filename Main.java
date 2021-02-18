@@ -1,11 +1,11 @@
 //練習問題
-// public class Main { 
+// public class Main {
 //   public static void main (String[] args) throws Exception {
 //     doWarusa();
 //     doTogame();
 //     csllDeae();
 //     showMondokoro();
-//   } 
+//   }
 //   public static void doWarusa() {
 //     System.out.println("きなこでござる。食えませんがの。");
 //   }
